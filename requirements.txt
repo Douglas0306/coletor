@@ -1,5 +1,5 @@
 pandas
 streamlit
-ploply
+plotly
 selenium
 missingno
