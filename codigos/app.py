@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-df = pd.read_csv('base_tratada/base_tratada.csv', sep=',')
+df = pd.read_csv('/base_tratada/base_tratada.csv', sep=',')
 
 #lista_colunas = df.columns.tolist() Tentativa falha de definir 'Choose an option' como valor padrão no Streamlit para não selecionar automaticamente a localização (já que é o primeiro valor da coluna) 
 #Eu até consegui, mais fica aparecendo como ops pro usuário. 😿
